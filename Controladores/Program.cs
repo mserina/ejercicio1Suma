@@ -1,8 +1,18 @@
 ﻿using ejercicio1Suma.Servicios;
 
 namespace ejercicio1Suma{
+
+    /// <summary>
+    /// Clase principal,que contiene el metodo principal
+    /// 251023 - msm
+    /// </summary>
     class program
     {
+        /// <summary>
+        /// Metodo donde empieza el programa, el cual contiene el procedimiento en el que debe ir los metodos
+        /// 251023 - msm
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             //Para pedir numero
@@ -12,8 +22,7 @@ namespace ejercicio1Suma{
 
             //Para la suma
             OperacionInterfaz op = new OperacionImplementacion();
-            int resultado = op.suma(numero);
-            Console.WriteLine("La suma de los numeros del 1 al  " + numero + " es " + resultado);
+            op.suma(numero);
         }
     }
 }

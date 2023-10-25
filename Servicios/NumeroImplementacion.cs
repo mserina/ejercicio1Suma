@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ejercicio1Suma.Servicios
 {
+    
     internal class NumeroImplementacion : NumeroInterfaz
     {
         public int numero()

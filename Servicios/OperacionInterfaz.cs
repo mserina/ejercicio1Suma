@@ -8,6 +8,11 @@ namespace ejercicio1Suma.Servicios
 {
     internal interface OperacionInterfaz
     {
-        public int suma(int numero);
+        /// <summary>
+        /// Meotodo suma 
+        /// 251023 - msm
+        /// </summary>
+        /// <param name="numero"></param>
+        public void suma(int numero);
     }
 }
